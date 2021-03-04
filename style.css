@@ -2,6 +2,11 @@ body {
   font-family: Ubuntu, "times new roman", times, roman, serif;
 }
 
+h1 {
+   color: #fff;
+}
+
+
 @media (prefers-color-scheme: dark) {
     body {
         background: #1e1e1e;
@@ -36,7 +41,6 @@ a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 90vh;
     }
 }
 
@@ -48,25 +52,41 @@ h1 {
 
 
 .section {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 1.35;
 }
 
 .section-title {
     font-size: 32px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background: #DA70D6;
+    opacity: 1;
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 0;
 }
 
 .project {
     margin-top: 15px;
     margin-bottom: 15px;
+    padding: 1rem;
+    background: rgba(218, 112, 214, 0.1);
+    border-radius: 0.5rem;
 }
 
 
 .project-title {
     font-size: 24px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .project-description {
@@ -82,4 +102,12 @@ h1 {
 .contact-description {
     margin-top: 7px;
     margin-bottom: 0px;
+}
+
+ul > li {
+    margin-bottom: 0.25em;
+}
+
+ul > li > a > i {
+    margin-right: 0.25em;
 }
