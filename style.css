@@ -2,14 +2,13 @@ body {
   font-family: Ubuntu, "times new roman", times, roman, serif;
 }
 
-h1 {
-   color: #fff;
-}
-
-
 @media (prefers-color-scheme: dark) {
     body {
         background: #1e1e1e;
+        color: #fff;
+    }
+
+    h1 {
         color: #fff;
     }
 }
@@ -17,6 +16,10 @@ h1 {
 @media (prefers-color-scheme: light) {
     body {
         background: #fff;
+        color: #1e1e1e;
+    }
+
+    h1 {
         color: #1e1e1e;
     }
 }
