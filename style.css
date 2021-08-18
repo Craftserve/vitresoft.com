@@ -1,16 +1,14 @@
 body {
     font-family: Ubuntu, "times new roman", times, roman, serif;
+    background: #1e1e1e;
+    color: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #1e1e1e;
-        color: #fff;
-    }
-
-    h1 {
-        color: #fff;
-    }
+h1 {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
 }
 
 @media (prefers-color-scheme: light) {
@@ -46,13 +44,6 @@ a:hover {
         justify-content: center;
     }
 }
-
-h1 {
-    font-size: 64px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 
 .section {
     margin-top: 16px;
