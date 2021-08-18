@@ -1,5 +1,5 @@
 body {
-  font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,9 +25,9 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  transition: .2s;
+    color: inherit;
+    text-decoration: none;
+    transition: .2s;
 }
 
 a:hover {
